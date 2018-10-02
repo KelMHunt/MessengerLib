@@ -8,5 +8,10 @@ public class TextMessage extends Message
 		super(data);
 		// TODO Auto-generated constructor stub
 	}
+	
+	public String getText()
+	{
+		return getData(); 
+	}
 
 }
